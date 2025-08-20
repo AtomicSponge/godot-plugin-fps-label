@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cap0x5c73ubtx"]
+
+[ext_resource type="Script" uid="uid://cmfgtkrms7cw8" path="res://addons/fps_label/ui_anchor.gd" id="1_fdt2r"]
+
+[node name="Example" type="Node2D"]
+
+[node name="FPSLabel" type="Label" parent="."]
+offset_left = 1066.0
+offset_top = 8.0
+offset_right = 1144.0
+offset_bottom = 33.0
+text = "FPS:  144"
+script = ExtResource("1_fdt2r")
+metadata/_custom_type_script = "uid://cmfgtkrms7cw8"

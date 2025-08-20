@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Godot Plugin FPS Label"
+run/main_scene="uid://cap0x5c73ubtx"
+config/features=PackedStringArray("4.4", "Mobile")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/fps_label/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "red",
+"res://example/": "green"
+}
+
+[rendering]
+
+renderer/rendering_method="mobile"
