@@ -12,6 +12,9 @@ func show_fps() -> void:
 func hide_fps() -> void:
 	hide()
 
+func _ready() -> void:
+	hide()
+
 func _process(delta: float) -> void:
 	if power_mode:
 		set_text("FPS:  %d" % Engine.get_frames_per_second() +
