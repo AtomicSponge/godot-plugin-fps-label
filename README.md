@@ -9,4 +9,6 @@ The FPS label will begin hidden.  Press the assigned key to show.  Press the key
 ## API Reference
 - `show_fps() -> void`:  Show the FPS counter.
 
+- `show_powermode() -> void`:  Show the FPS counter and delta time.
+
 - `hide_fps() -> void`:  Hide the FPS counter.

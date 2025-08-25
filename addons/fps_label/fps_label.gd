@@ -6,6 +6,12 @@ var power_mode: bool = false
 
 ## Show the FPS Label.
 func show_fps() -> void:
+	power_mode = false
+	show()
+
+## Show the FPS Label in powermode.
+func show_powermode() -> void:
+	power_mode = true
 	show()
 
 ## Hide the FPS Label.
